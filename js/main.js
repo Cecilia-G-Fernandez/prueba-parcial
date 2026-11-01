@@ -1,18 +1,18 @@
 //---------------------Array de productos-----------------------------------//
 
 let stock = [
-  { id: 1, nombre: "Johnnie Walker Red Label", tamaño: "750cc", nombreCorto: "Whisky", img: "images/Whisky Johnnie Walker Red Label.jpg", unidades: false, cantidad: 1, precio: 3990 },
-  { id: 2, nombre: "Bacardí Carta Oro 40°", tamaño: "980cc", nombreCorto: "Ron", img: "images/Bacardí Carta Oro 40° 980cc.jpg", unidades: true, cantidad: 1, precio: 1860 },
-  { id: 3, nombre: "Vodka Absolut Clasic", tamaño: "700cc", nombreCorto: "Vodka", img: "images/Absolut Clasic 700cc.jpg", unidades: true, cantidad: 1, precio: 3200 },
-  { id: 4, nombre: "Baileys The Original Irish Cream", tamaño: "750cc", nombreCorto: "Licor", img: "images/Baileys The Original Irish Cream 750cc.jpg", unidades: true, cantidad: 1, precio: 3230 },
+  { id: 1, nombre: "Johnnie Walker Red Label", tamaño: "750cc", nombreCorto: "Whisky", img: "images/Whisky Johnnie Walker Red Label.jpg", unidades: false, cantidad: 1, precio: 10000 },
+  { id: 2, nombre: "Bacardí Carta Oro 40°", tamaño: "980cc", nombreCorto: "Ron", img: "images/Bacardí Carta Oro 40° 980cc.jpg", unidades: true, cantidad: 1, precio: 10000 },
+  { id: 3, nombre: "Vodka Absolut Clasic", tamaño: "700cc", nombreCorto: "Vodka", img: "images/Absolut Clasic 700cc.jpg", unidades: true, cantidad: 1, precio: 10000 },
+  { id: 4, nombre: "Baileys The Original Irish Cream", tamaño: "750cc", nombreCorto: "Licor", img: "images/Baileys The Original Irish Cream 750cc.jpg", unidades: true, cantidad: 1, precio: 10000 },
   { id: 5, nombre: "Luigi Bosca Malbec", tamaño: "750cc", nombreCorto: "Vino", img: "images/Vino Luigi Bosca Malbec 750cc.jpg", unidades: true, cantidad: 1, precio: 1700 },
-  { id: 6, nombre: "Brut Rose Louis Roederer", tamaño: "750cc", nombreCorto: "Champagne", img: "images/Champagne Brut Rose Louis Roederer 750cc.jpg", unidades: false, cantidad: 1, precio: 38000 },
-  { id: 7, nombre: "Nero 53 Maracuya Premium", tamaño: "750cc", nombreCorto: "Fernet", img: "images/Fernet Nero 53 Maracuya.jpg", unidades: true, cantidad: 1, precio: 2850 },
-  { id: 8, nombre: "Brokers London", tamaño: "750cc", nombreCorto: "Gin", img: "images/Gin Brokers London.jpg", unidades: true, cantidad: 1, precio: 7860 },
-  { id: 9, nombre: "MAAD Ginegra Premium", tamaño: "700cc", nombreCorto: "Ginebra", img: "images/Maad ginebra.jpg", unidades: true, cantidad: 1, precio: 5690 },
-  { id: 10, nombre: "Aconcagua Handcrafted Gin", tamaño: "750cc", nombreCorto: "Gin", img: "images/Gin Aconcagua.jpg", unidades: true, cantidad: 1, precio: 4800 },
-  { id: 11, nombre: "Baudron Premium Malbec", tamaño: "750cc", nombreCorto: "Vino", img: "images/Baudron Premium.jpg", unidades: false, cantidad: 1, precio: 10200 },
-  { id: 12, nombre: "Zyr Rusian Imported", tamaño: "750cc", nombreCorto: "Vodka", img: "images/Vodka Zyr Rusian.jpg", unidades: true, cantidad: 1, precio: 26950 },
+  { id: 6, nombre: "Brut Rose Louis Roederer", tamaño: "750cc", nombreCorto: "Champagne", img: "images/Champagne Brut Rose Louis Roederer 750cc.jpg", unidades: false, cantidad: 1, precio: 10000 },
+  { id: 7, nombre: "Nero 53 Maracuya Premium", tamaño: "750cc", nombreCorto: "Fernet", img: "images/Fernet Nero 53 Maracuya.jpg", unidades: true, cantidad: 1, precio: 10000 },
+  { id: 8, nombre: "Brokers London", tamaño: "750cc", nombreCorto: "Gin", img: "images/Gin Brokers London.jpg", unidades: true, cantidad: 1, precio: 10000 },
+  { id: 9, nombre: "MAAD Ginegra Premium", tamaño: "700cc", nombreCorto: "Ginebra", img: "images/Maad ginebra.jpg", unidades: true, cantidad: 1, precio: 10000 },
+  { id: 10, nombre: "Aconcagua Handcrafted Gin", tamaño: "750cc", nombreCorto: "Gin", img: "images/Gin Aconcagua.jpg", unidades: true, cantidad: 1, precio: 10000 },
+  { id: 11, nombre: "Baudron Premium Malbec", tamaño: "750cc", nombreCorto: "Vino", img: "images/Baudron Premium.jpg", unidades: false, cantidad: 1, precio: 10000 },
+  { id: 12, nombre: "Zyr Rusian Imported", tamaño: "750cc", nombreCorto: "Vodka", img: "images/Vodka Zyr Rusian.jpg", unidades: true, cantidad: 1, precio: 10000 },
 ];
 
 const contenedorProductos = document.querySelector("#productos");
